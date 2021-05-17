@@ -38,7 +38,7 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 - **`bool` 类型的 `++` 操作被弃用。**
 
-- **如果一个类有析构函数，为其生成拷贝构造函数和拷贝赋值运算符的特性被弃用了。**
+- **如果一个类有析构函数，为其生成拷贝构造函数和拷贝赋值运算符的特性被弃用了。**[自己在这个地方注释下，自己要写拷贝构造函数了]
 
 - **C 语言风格的类型转换被弃用（即在变量前使用 `(convert_type)`），应该使用 `static_cast`、`reinterpret_cast`、`const_cast` 来进行类型转换。**
 
